@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class CrashDetector : MonoBehaviour
 {
+    [SerializeField] private float reloadDelay = 1f; // Delay before reloading the scene
+    [SerializeField] private ParticleSystem crashEffect; // Particle effect to play when the player collides with the floor
+
     void OnTriggerEnter2D(Collider2D other)
     {
         int layerIndex = LayerMask.NameToLayer("Floor");
@@ -10,9 +13,9 @@ public class CrashDetector : MonoBehaviour
         if (other.gameObject.layer == layerIndex)
         {
             Debug.Log("Player has collided with the floor!");
-            //TODO: You can add additional logic here, such as 
-            // resetting the player's position or triggering a game over state.
-            Invoke(nameof(ReloadScene), 1f); // Reload the scene after 1 second
+            crashEffect.Play(); // Play the crash effect
+
+            Invoke(nameof(ReloadScene), reloadDelay); // Reload the scene after the specified delay
         }
     }
 
