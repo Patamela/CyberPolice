@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float boostSpeed = 35f;
     [SerializeField] private ParticleSystem snowEffect; // Particle effect to play when the player boosts
     // [SerializeField] private ParticleSystem boostEffect; // Particle effect to play when the player collides with the floor
+    [SerializeField] private ScoreManager scoreManager; // Reference to the ScoreManager script to update the score
 
     SurfaceEffector2D surfaceEffector2D;
     Rigidbody2D rb;
@@ -53,7 +54,7 @@ public class PlayerController : MonoBehaviour
         if(Math.Abs(totalRotation) > 340) // If the player has rotated more than 340 degrees in either direction
         {
             flipCount++; // Increment the flip count
-            Debug.Log($"Player flipped! Total flips: {flipCount}!"); // Log the number of flips
+            scoreManager.AddScore(flipCount * 100); // Update the score
             totalRotation = 0; // Reset the total rotation
         }
 
