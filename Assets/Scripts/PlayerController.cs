@@ -9,6 +9,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float torqueAmount = 1f;
     [SerializeField] private float boostSpeed = 35f;
     [SerializeField] private ParticleSystem snowEffect; // Particle effect to play when the player boosts
+    // [SerializeField] private ParticleSystem boostEffect; // Particle effect to play when the player collides with the floor
+
+    private bool canControlPlayer = true; // Flag to control player input
+    public bool CanControlPlayer {
+        get => canControlPlayer;
+        set => canControlPlayer = value; 
+    }
 
     SurfaceEffector2D surfaceEffector2D;
 
@@ -29,6 +36,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (!canControlPlayer) return; // If player control is disabled, exit the method
+        
         PlayerTorque();
         BoostPlayer();
     }
@@ -59,6 +68,7 @@ public class PlayerController : MonoBehaviour
         if(moveInput.y > 0)
         {
             surfaceEffector2D.speed = boostSpeed;
+            
         }
         else
         {
@@ -71,7 +81,20 @@ public class PlayerController : MonoBehaviour
         int layerIndex = LayerMask.NameToLayer("Floor");
         if(collision.gameObject.layer == layerIndex)
         {
+
             snowEffect.Play(); // Play the boost effect
+            /*if (moveInput.y > 0)
+            {
+                if (!boostEffect.isPlaying)
+                {
+                    boostEffect.Play(); // Play the boost effect
+                }
+            }
+            else
+            {
+                boostEffect.Stop(); // Stop the boost effect
+            }
+            */
         }
     }
 
