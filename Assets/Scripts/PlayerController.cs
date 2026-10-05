@@ -1,5 +1,4 @@
 using System;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,20 +10,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ParticleSystem snowEffect; // Particle effect to play when the player boosts
     // [SerializeField] private ParticleSystem boostEffect; // Particle effect to play when the player collides with the floor
 
-    private bool canControlPlayer = true; // Flag to control player input
-    public bool CanControlPlayer {
-        get => canControlPlayer;
-        set => canControlPlayer = value; 
-    }
-
     SurfaceEffector2D surfaceEffector2D;
+    Rigidbody2D rb;
 
     float baseSpeed;
-
     InputAction moveAction;
     Vector2 moveInput;
+    float previousRotation; // Store the previous rotation of the player to calculate flips
+    float totalRotation; // Store the total rotation of the player to calculate flips
+    int flipCount; // Store the number of flips the player has performed
 
-    Rigidbody2D rb;
+    private bool canControlPlayer = true; // Flag to control player input
+    public bool CanControlPlayer {get => canControlPlayer; set => canControlPlayer = value;}
 
     void Start()
     {
@@ -40,7 +37,28 @@ public class PlayerController : MonoBehaviour
         
         PlayerTorque();
         BoostPlayer();
+        CalculateFlips();
     }
+
+    /// <summary>
+    /// Calculates the number of flips the player has performed based on their rotation.
+    /// </summary>
+    private void CalculateFlips()
+    {
+        // Get the current rotation of the player in degrees
+        float currentRotation = transform.rotation.eulerAngles.z; 
+
+        // Calculate the change in rotation since the last frame
+        totalRotation += Mathf.DeltaAngle(previousRotation, currentRotation); 
+        if(Math.Abs(totalRotation) > 340) // If the player has rotated more than 340 degrees in either direction
+        {
+            flipCount++; // Increment the flip count
+            Debug.Log($"Player flipped! Total flips: {flipCount}!"); // Log the number of flips
+            totalRotation = 0; // Reset the total rotation
+        }
+
+        previousRotation = currentRotation; // Update the previous rotation for the next frame
+    }   
 
     /// <summary>
     /// Applies torque to the player based on input from the Move action.
@@ -75,6 +93,7 @@ public class PlayerController : MonoBehaviour
             surfaceEffector2D.speed = baseSpeed;
         }
     }
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
