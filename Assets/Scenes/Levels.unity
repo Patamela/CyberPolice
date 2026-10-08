@@ -2312,6 +2312,7 @@ GameObject:
   - component: {fileID: 2078936093}
   - component: {fileID: 2078936092}
   - component: {fileID: 2078936096}
+  - component: {fileID: 2078936097}
   m_Layer: 5
   m_Name: Levels
   m_TagString: Untagged
@@ -2417,6 +2418,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885ce02331a6a484390401a716489c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+--- !u!114 &2078936097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078936091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfb640e5b773104e83fb0e870dfcfd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSelector
 --- !u!1 &2126535895
 GameObject:
   m_ObjectHideFlags: 0

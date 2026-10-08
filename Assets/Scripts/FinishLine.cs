@@ -12,14 +12,26 @@ public class FinishLine : MonoBehaviour
         {
             Debug.Log("Player has reached the finish line!");
             finishEffect.Play(); // Play the finish effect
+
             
-            Invoke(nameof(ReloadScene), reloadDelay); // Reload the scene after the specified delay
+
+            Invoke(nameof(NextLevel), reloadDelay); // Load the next level after the specified delay
         }
     }
 
-    void ReloadScene()
+    void NextLevel()
     {
-        // Reload the current scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+        PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel + 1); 
+        // Load the next level
+        if(unlockedLevel > 6)
+        {
+            SceneManager.LoadScene("Menu"); //TODO: Go to Menu
+        }
+        else
+        {
+            SceneManager.LoadScene($"Level{unlockedLevel + 1}"); //TODO: Go to Win Scene
+        }
+        
     }
 }
