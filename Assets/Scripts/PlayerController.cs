@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        transform.GetChild(0).GetChild(PlayerPrefs.GetInt("SelectedCharacter", 0)).gameObject.SetActive(true); // Activate the selected character based on PlayerPrefs
+
         moveAction = InputSystem.actions.FindAction("Move");
         rb = GetComponent<Rigidbody2D>();
         surfaceEffector2D = FindAnyObjectByType<SurfaceEffector2D>();
