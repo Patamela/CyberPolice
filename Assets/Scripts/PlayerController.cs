@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float boostSpeed = 35f;
     [SerializeField] private ParticleSystem snowEffect; // Particle effect to play when the player boosts
     [SerializeField] private ScoreManager scoreManager; // Reference to the ScoreManager script to update the score
+    [SerializeField] private float fuerzaSalto = 10f; // Force applied to the player when jumping
 
     SurfaceEffector2D surfaceEffector2D;
     Rigidbody2D rb;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     float baseSpeed;
     InputAction moveAction;
     Vector2 moveInput;
+    bool inFloor;
     int coinsCount; // Store the number of coins the player has collected
 
     int activePowerUpsCount; // Track the number of active power-ups
@@ -39,7 +41,20 @@ public class PlayerController : MonoBehaviour
         if (!canControlPlayer) return; // If player control is disabled, exit the method
         
         BoostPlayer();
+        JumpPlayer();
     } 
+
+    private void JumpPlayer()
+    {
+        if (
+            Keyboard.current.spaceKey.wasPressedThisFrame &&
+            inFloor
+            )
+        {
+            Debug.Log("Player has jumped!");
+            rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse); // Apply an upward force to the player for jumping
+        }
+    }
 
     /// <summary>
     /// Boosts the player's speed when the up arrow key is pressed. 
@@ -67,6 +82,7 @@ public class PlayerController : MonoBehaviour
 
         if(collision.gameObject.layer == layerIndex )
         {
+            inFloor = true;
             snowEffect.Play(); // Play the boost effect
         }
     }
@@ -76,6 +92,7 @@ public class PlayerController : MonoBehaviour
         int layerIndex = LayerMask.NameToLayer("Floor");
         if(collision.gameObject.layer == layerIndex )
         {
+            inFloor = false;
             snowEffect.Stop(); // Stop the boost effect
         }
     }

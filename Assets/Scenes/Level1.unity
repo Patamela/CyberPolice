@@ -765,6 +765,7 @@ MonoBehaviour:
   boostSpeed: 35
   snowEffect: {fileID: 676691372}
   scoreManager: {fileID: 727919640}
+  fuerzaSalto: 20
 --- !u!1001 &499872868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9785,10 +9786,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 745717412297189646, guid: 716535914a0de2b448e1581ae224a107, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1856158724537461791, guid: 716535914a0de2b448e1581ae224a107, type: 3}
-      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2784672205175146721, guid: 716535914a0de2b448e1581ae224a107, type: 3}
