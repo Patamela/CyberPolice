@@ -5,21 +5,18 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
 
-    [SerializeField] private float torqueAmount = 1f;
     [SerializeField] private float boostSpeed = 35f;
     [SerializeField] private ParticleSystem snowEffect; // Particle effect to play when the player boosts
-    // [SerializeField] private ParticleSystem boostEffect; // Particle effect to play when the player collides with the floor
     [SerializeField] private ScoreManager scoreManager; // Reference to the ScoreManager script to update the score
 
     SurfaceEffector2D surfaceEffector2D;
     Rigidbody2D rb;
+    Collider2D magnetCollider;
 
     float baseSpeed;
     InputAction moveAction;
     Vector2 moveInput;
-    float previousRotation; // Store the previous rotation of the player to calculate flips
-    float totalRotation; // Store the total rotation of the player to calculate flips
-    int flipCount; // Store the number of flips the player has performed
+    int coinsCount; // Store the number of coins the player has collected
 
     int activePowerUpsCount; // Track the number of active power-ups
 
@@ -34,52 +31,15 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         surfaceEffector2D = FindAnyObjectByType<SurfaceEffector2D>();
         baseSpeed = surfaceEffector2D.speed; // Store the initial speed of the SurfaceEffector2D
+        magnetCollider = transform.Find("MagnetCollider").GetComponent<Collider2D>(); // Get the reference to the magnet collider
     }
 
     void Update()
     {
         if (!canControlPlayer) return; // If player control is disabled, exit the method
         
-        PlayerTorque();
         BoostPlayer();
-        CalculateFlips();
-    }
-
-    /// <summary>
-    /// Calculates the number of flips the player has performed based on their rotation.
-    /// </summary>
-    private void CalculateFlips()
-    {
-        // Get the current rotation of the player in degrees
-        float currentRotation = transform.rotation.eulerAngles.z; 
-
-        // Calculate the change in rotation since the last frame
-        totalRotation += Mathf.DeltaAngle(previousRotation, currentRotation); 
-        if(Math.Abs(totalRotation) > 340) // If the player has rotated more than 340 degrees in either direction
-        {
-            flipCount++; // Increment the flip count
-            scoreManager.AddScore(flipCount * 100); // Update the score
-            totalRotation = 0; // Reset the total rotation
-        }
-
-        previousRotation = currentRotation; // Update the previous rotation for the next frame
-    }   
-
-    /// <summary>
-    /// Applies torque to the player based on input from the Move action.
-    /// </summary>
-    void PlayerTorque()
-    {
-        moveInput = moveAction.ReadValue<Vector2>();
-        if (moveInput.x < 0)
-        {
-            rb.AddTorque(torqueAmount);
-        }
-        else if (moveInput.x > 0)
-        {
-            rb.AddTorque(-torqueAmount);
-        }
-    }
+    } 
 
     /// <summary>
     /// Boosts the player's speed when the up arrow key is pressed. 
@@ -103,22 +63,11 @@ public class PlayerController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         int layerIndex = LayerMask.NameToLayer("Floor");
-        if(collision.gameObject.layer == layerIndex)
-        {
 
+
+        if(collision.gameObject.layer == layerIndex )
+        {
             snowEffect.Play(); // Play the boost effect
-            /*if (moveInput.y > 0)
-            {
-                if (!boostEffect.isPlaying)
-                {
-                    boostEffect.Play(); // Play the boost effect
-                }
-            }
-            else
-            {
-                boostEffect.Stop(); // Stop the boost effect
-            }
-            */
         }
     }
 
@@ -139,6 +88,11 @@ public class PlayerController : MonoBehaviour
             baseSpeed += powerUpData.PowerUpValue; // Increase the base speed by the power-up value
             boostSpeed += powerUpData.PowerUpValue; // Increase the boost speed by the power-up value
         }
+
+        if(powerUpData.PowerUpType == "Magnet")
+        {
+            magnetCollider.gameObject.SetActive(true); // Enable the magnet collider to attract coins
+        }
     }
 
     public void DeactivatePowerUp(PowerUpScriptableObject powerUpData)
@@ -150,6 +104,11 @@ public class PlayerController : MonoBehaviour
             {
                 baseSpeed -= powerUpData.PowerUpValue; // Decrease the base speed by the power-up value
                 boostSpeed -= powerUpData.PowerUpValue; // Decrease the boost speed by the power-up value
+            }
+
+            if(powerUpData.PowerUpType == "Magnet")
+            {
+                magnetCollider.gameObject.SetActive(false); // Disable the magnet collider to stop attracting coins
             }
         }
     }

@@ -44,7 +44,7 @@ public class PowerUpManager : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && powerUpSpriteRenderer.enabled)
+        if (powerUpSpriteRenderer.enabled)
         {
             powerUpSpriteRenderer.enabled = false;
             playerController.ApplyPowerUp(powerUpData);

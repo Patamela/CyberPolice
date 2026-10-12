@@ -23,6 +23,8 @@ public class FinishLine : MonoBehaviour
     {
         int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
         PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel + 1); 
+        PlayerPrefs.Save(); // Save the updated unlocked level to PlayerPrefs
+
         // Load the next level
         if(unlockedLevel > 6)
         {

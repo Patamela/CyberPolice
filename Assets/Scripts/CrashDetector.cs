@@ -15,14 +15,15 @@ public class CrashDetector : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        int layerIndex = LayerMask.NameToLayer("Floor");
+
+        /*int layerIndex = LayerMask.NameToLayer("Floor");
 
         if (other.gameObject.layer == layerIndex)
         {
             playerController.CanControlPlayer = false; // Disable player control
             crashEffect.Play(); // Play the crash effect
             Invoke(nameof(ReloadScene), reloadDelay); // Reload the scene after the specified delay
-        }
+        }*/
     }
 
     void ReloadScene()
