@@ -15,8 +15,16 @@ public class LevelSelector : MonoBehaviour
         for(int i=0; i<levels.childCount; i++)
         {
             Button levelButton = levels.GetChild(i).GetComponent<Button>();
-            // Enable the button if the level is unlocked, otherwise disable it
-            levelButton.interactable = (i < unlockedLevel); 
+
+            if (i == 6 && GameProgressManager.Instance.FinalLevelUnlocked())
+            {
+                levelButton.interactable = true;
+            }
+            else
+            {
+                levelButton.interactable = (i < unlockedLevel);
+            }
+                
         }
     }
 }
