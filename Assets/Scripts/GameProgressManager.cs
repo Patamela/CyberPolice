@@ -17,28 +17,19 @@ public class GameProgressManager : MonoBehaviour
     }
 
     public static GameProgressManager Instance {
-        get
-        {
-            if (_instance == null)
-            {
-                _instance = new GameProgressManager();
-            }
-            return _instance;
-        }
-
-        private set { _instance = value; }
+        get {  return _instance; }
     }
 
     private void Awake()
     {   
 
-        if(Instance != null && Instance != this)
+        if(_instance != null && _instance != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        Instance = this;
+        _instance = this;
         DontDestroyOnLoad(gameObject);
 
         Gems = new Dictionary<int, HashSet<int>>();

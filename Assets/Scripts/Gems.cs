@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Gems : MonoBehaviour, ICollectible
 {
-    public static event Action OnGemCollected;
+    public static event Action<int> OnGemCollected;
     private SpriteRenderer spriteRenderer;
 
     [SerializeField] private int idGem;
@@ -29,7 +29,8 @@ public class Gems : MonoBehaviour, ICollectible
 
         GameProgressManager.Instance.AddGem(idLevel, idGem);
 
+
         Destroy(gameObject);
-        OnGemCollected?.Invoke();
+        OnGemCollected?.Invoke(GameProgressManager.Instance.GetLevelGems(idLevel));
     }
 }
