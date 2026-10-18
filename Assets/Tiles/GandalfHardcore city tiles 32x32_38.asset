@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: GandalfHardcore city tiles 32x32_38
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 1617440616, guid: 6ae11abdca7f86948bdd851eb2e4f026, type: 3}
+  m_Sprite: {fileID: -1476729810, guid: 6ae11abdca7f86948bdd851eb2e4f026, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

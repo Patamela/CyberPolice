@@ -10,13 +10,13 @@ public class LevelSelector : MonoBehaviour
         int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
 
         // Get the Layout Group gameObject with all the levels buttons
-        Transform levels = transform.GetChild(0);
+        Transform levels = transform.GetChild(5);
 
         for(int i=0; i<levels.childCount; i++)
         {
             Button levelButton = levels.GetChild(i).GetComponent<Button>();
-
-            if (i == 6 && GameProgressManager.Instance.FinalLevelUnlocked())
+            Debug.Log("FinalLevelUnlocked:" + GameProgressManager.Instance.FinalLevelUnlocked());
+            if (i == 2 && GameProgressManager.Instance.FinalLevelUnlocked())
             {
                 levelButton.interactable = true;
             }

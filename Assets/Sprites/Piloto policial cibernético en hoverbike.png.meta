@@ -1,0 +1,1328 @@
+fileFormatVersion: 2
+guid: 80b487a33703b51468108964e2ee8013
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8581249650685932116
+    second: "Piloto policial cibern\xE9tico en hoverbike_0"
+  - first:
+      213: 939106341899528949
+    second: "Piloto policial cibern\xE9tico en hoverbike_1"
+  - first:
+      213: -4828742647472955631
+    second: "Piloto policial cibern\xE9tico en hoverbike_2"
+  - first:
+      213: 5432345960445490457
+    second: "Piloto policial cibern\xE9tico en hoverbike_3"
+  - first:
+      213: 4687074063988568018
+    second: "Piloto policial cibern\xE9tico en hoverbike_4"
+  - first:
+      213: -1163430621927349646
+    second: "Piloto policial cibern\xE9tico en hoverbike_5"
+  - first:
+      213: -4838231496632057996
+    second: "Piloto policial cibern\xE9tico en hoverbike_6"
+  - first:
+      213: 3452030370170627334
+    second: "Piloto policial cibern\xE9tico en hoverbike_7"
+  - first:
+      213: 8033156603444773976
+    second: "Piloto policial cibern\xE9tico en hoverbike_8"
+  - first:
+      213: 7380115705442182146
+    second: "Piloto policial cibern\xE9tico en hoverbike_9"
+  - first:
+      213: -8040009941714734907
+    second: "Piloto policial cibern\xE9tico en hoverbike_10"
+  - first:
+      213: -759481408097155742
+    second: "Piloto policial cibern\xE9tico en hoverbike_11"
+  - first:
+      213: -8014619139154654427
+    second: "Piloto policial cibern\xE9tico en hoverbike_12"
+  - first:
+      213: -7838367038914759050
+    second: "Piloto policial cibern\xE9tico en hoverbike_13"
+  - first:
+      213: -7762205026817819262
+    second: "Piloto policial cibern\xE9tico en hoverbike_14"
+  - first:
+      213: 9207162028641383357
+    second: "Piloto policial cibern\xE9tico en hoverbike_15"
+  - first:
+      213: 8011443973657620057
+    second: "Piloto policial cibern\xE9tico en hoverbike_16"
+  - first:
+      213: 1177565823116896812
+    second: "Piloto policial cibern\xE9tico en hoverbike_17"
+  - first:
+      213: 7383203519005770943
+    second: "Piloto policial cibern\xE9tico en hoverbike_18"
+  - first:
+      213: 3269200478094796919
+    second: "Piloto policial cibern\xE9tico en hoverbike_19"
+  - first:
+      213: -8883278643034915418
+    second: "Piloto policial cibern\xE9tico en hoverbike_20"
+  - first:
+      213: 2836940200948282391
+    second: "Piloto policial cibern\xE9tico en hoverbike_21"
+  - first:
+      213: -5835448635522927507
+    second: "Piloto policial cibern\xE9tico en hoverbike_22"
+  - first:
+      213: 9003107873473809716
+    second: "Piloto policial cibern\xE9tico en hoverbike_23"
+  - first:
+      213: 6109960113592521840
+    second: "Piloto policial cibern\xE9tico en hoverbike_24"
+  - first:
+      213: 7731873034241325903
+    second: "Piloto policial cibern\xE9tico en hoverbike_25"
+  - first:
+      213: 4018994857333234898
+    second: "Piloto policial cibern\xE9tico en hoverbike_26"
+  - first:
+      213: 8324689105759882184
+    second: "Piloto policial cibern\xE9tico en hoverbike_27"
+  - first:
+      213: 2490578245547416472
+    second: "Piloto policial cibern\xE9tico en hoverbike_28"
+  - first:
+      213: 3272529926901999879
+    second: "Piloto policial cibern\xE9tico en hoverbike_29"
+  - first:
+      213: 4341311339085180490
+    second: "Piloto policial cibern\xE9tico en hoverbike_30"
+  - first:
+      213: 1025199137618760263
+    second: "Piloto policial cibern\xE9tico en hoverbike_31"
+  - first:
+      213: -7050714425210879614
+    second: "Piloto policial cibern\xE9tico en hoverbike_32"
+  - first:
+      213: -2929212603982688996
+    second: "Piloto policial cibern\xE9tico en hoverbike_33"
+  - first:
+      213: -5757644987766269779
+    second: "Piloto policial cibern\xE9tico en hoverbike_34"
+  - first:
+      213: -1491936684113946729
+    second: "Piloto policial cibern\xE9tico en hoverbike_35"
+  - first:
+      213: 2176428776117831538
+    second: "Piloto policial cibern\xE9tico en hoverbike_36"
+  - first:
+      213: 7688753215453918017
+    second: "Piloto policial cibern\xE9tico en hoverbike_37"
+  - first:
+      213: -7598346712713489273
+    second: "Piloto policial cibern\xE9tico en hoverbike_38"
+  - first:
+      213: 6700154974769319472
+    second: "Piloto policial cibern\xE9tico en hoverbike_39"
+  - first:
+      213: -7649260253085222530
+    second: "Piloto policial cibern\xE9tico en hoverbike_40"
+  - first:
+      213: 6633083599320232491
+    second: "Piloto policial cibern\xE9tico en hoverbike_41"
+  - first:
+      213: -2859727201457642552
+    second: "Piloto policial cibern\xE9tico en hoverbike_42"
+  - first:
+      213: -8367295517090471311
+    second: "Piloto policial cibern\xE9tico en hoverbike_43"
+  - first:
+      213: -2314601778919378710
+    second: "Piloto policial cibern\xE9tico en hoverbike_44"
+  - first:
+      213: 2150366370248194143
+    second: "Piloto policial cibern\xE9tico en hoverbike_45"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 6
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad8be978e649e880800000000000000
+      internalID: -8581249650685932116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_1"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1531
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faec3b0e30680d00800000000000000
+      internalID: 939106341899528949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_2"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 995
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f5899552cdcfcb0800000000000000
+      internalID: -4828742647472955631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_3"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 981
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915b1658ed1936b40800000000000000
+      internalID: 5432345960445490457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_4"
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1009
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df2cfb2705db0140800000000000000
+      internalID: 4687074063988568018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_5"
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 965
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2726533730aaadfe0800000000000000
+      internalID: -1163430621927349646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_6"
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 991
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fb32e76162bdcb0800000000000000
+      internalID: -4838231496632057996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_7"
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 990
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60561eff45318ef20800000000000000
+      internalID: 3452030370170627334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_8"
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1001
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854c86d8e518b7f60800000000000000
+      internalID: 8033156603444773976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_9"
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 975
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a920f1207b6660800000000000000
+      internalID: 7380115705442182146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_10"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 911
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0fb794e852c6090800000000000000
+      internalID: -8040009941714734907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_11"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 956
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2650bd8eea7c575f0800000000000000
+      internalID: -759481408097155742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_12"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 945
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bc3a03b5a56c090800000000000000
+      internalID: -8014619139154654427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_13"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 977
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676fa5225b6883390800000000000000
+      internalID: -7838367038914759050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_14"
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 975
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28db5ce67ab174490800000000000000
+      internalID: -7762205026817819262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_15"
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 964
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db372aa551966cf70800000000000000
+      internalID: 9207162028641383357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_16"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 955
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e6ecbf8dd5e2f60800000000000000
+      internalID: 8011443973657620057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_17"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 903
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ae58a80ed875010800000000000000
+      internalID: 1177565823116896812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_18"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 965
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c0ce8b78667660800000000000000
+      internalID: 7383203519005770943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_19"
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 958
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778a06c83888e5d20800000000000000
+      internalID: 3269200478094796919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_20"
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 927
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adf619c32148b480800000000000000
+      internalID: -8883278643034915418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_21"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 967
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7143c8ef416de5720800000000000000
+      internalID: 2836940200948282391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_22"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 949
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d643e9e2262540fa0800000000000000
+      internalID: -5835448635522927507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_23"
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 953
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dcde019e671fc70800000000000000
+      internalID: 9003107873473809716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_24"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 905
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074dc72f950fac450800000000000000
+      internalID: 6109960113592521840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_25"
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 951
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b30663f812d4b60800000000000000
+      internalID: 7731873034241325903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_26"
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 959
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc1879778656c730800000000000000
+      internalID: 4018994857333234898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_27"
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 942
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbc166b2ac378370800000000000000
+      internalID: 8324689105759882184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_28"
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 935
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b5b2bf7bf409220800000000000000
+      internalID: 2490578245547416472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_29"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 931
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70924d141ac5a6d20800000000000000
+      internalID: 3272529926901999879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_30"
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 951
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e2c8169af6f3c30800000000000000
+      internalID: 4341311339085180490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_31"
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 943
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7429dc51f2d3a3e00800000000000000
+      internalID: 1025199137618760263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_32"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 911
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28145982694d62e90800000000000000
+      internalID: -7050714425210879614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_33"
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 929
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dc30408a85957d0800000000000000
+      internalID: -2929212603982688996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_34"
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 925
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da81261936cb810b0800000000000000
+      internalID: -5757644987766269779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_35"
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 941
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797930c8d739b4be0800000000000000
+      internalID: -1491936684113946729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_36"
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 936
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277017fc07a343e10800000000000000
+      internalID: 2176428776117831538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_37"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 899
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143f5cc0050f3ba60800000000000000
+      internalID: 7688753215453918017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_38"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 909
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784947c2cef3d8690800000000000000
+      internalID: -7598346712713489273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_39"
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 901
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e013b537bbbfc50800000000000000
+      internalID: 6700154974769319472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_40"
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 911
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79375cc35e58d590800000000000000
+      internalID: -7649260253085222530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_41"
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 743
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22b3f6d3627d0c50800000000000000
+      internalID: 6633083599320232491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_42"
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 719
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3689203453058d0800000000000000
+      internalID: -2859727201457642552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_43"
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 609
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172aa1d1f0561eb80800000000000000
+      internalID: -8367295517090471311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_44"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0f50302f1e0efd0800000000000000
+      internalID: -2314601778919378710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Piloto policial cibern\xE9tico en hoverbike_45"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 455
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58f69312d2a7dd10800000000000000
+      internalID: 2150366370248194143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Piloto policial cibern\xE9tico en hoverbike_0": -8581249650685932116
+      "Piloto policial cibern\xE9tico en hoverbike_1": 939106341899528949
+      "Piloto policial cibern\xE9tico en hoverbike_10": -8040009941714734907
+      "Piloto policial cibern\xE9tico en hoverbike_11": -759481408097155742
+      "Piloto policial cibern\xE9tico en hoverbike_12": -8014619139154654427
+      "Piloto policial cibern\xE9tico en hoverbike_13": -7838367038914759050
+      "Piloto policial cibern\xE9tico en hoverbike_14": -7762205026817819262
+      "Piloto policial cibern\xE9tico en hoverbike_15": 9207162028641383357
+      "Piloto policial cibern\xE9tico en hoverbike_16": 8011443973657620057
+      "Piloto policial cibern\xE9tico en hoverbike_17": 1177565823116896812
+      "Piloto policial cibern\xE9tico en hoverbike_18": 7383203519005770943
+      "Piloto policial cibern\xE9tico en hoverbike_19": 3269200478094796919
+      "Piloto policial cibern\xE9tico en hoverbike_2": -4828742647472955631
+      "Piloto policial cibern\xE9tico en hoverbike_20": -8883278643034915418
+      "Piloto policial cibern\xE9tico en hoverbike_21": 2836940200948282391
+      "Piloto policial cibern\xE9tico en hoverbike_22": -5835448635522927507
+      "Piloto policial cibern\xE9tico en hoverbike_23": 9003107873473809716
+      "Piloto policial cibern\xE9tico en hoverbike_24": 6109960113592521840
+      "Piloto policial cibern\xE9tico en hoverbike_25": 7731873034241325903
+      "Piloto policial cibern\xE9tico en hoverbike_26": 4018994857333234898
+      "Piloto policial cibern\xE9tico en hoverbike_27": 8324689105759882184
+      "Piloto policial cibern\xE9tico en hoverbike_28": 2490578245547416472
+      "Piloto policial cibern\xE9tico en hoverbike_29": 3272529926901999879
+      "Piloto policial cibern\xE9tico en hoverbike_3": 5432345960445490457
+      "Piloto policial cibern\xE9tico en hoverbike_30": 4341311339085180490
+      "Piloto policial cibern\xE9tico en hoverbike_31": 1025199137618760263
+      "Piloto policial cibern\xE9tico en hoverbike_32": -7050714425210879614
+      "Piloto policial cibern\xE9tico en hoverbike_33": -2929212603982688996
+      "Piloto policial cibern\xE9tico en hoverbike_34": -5757644987766269779
+      "Piloto policial cibern\xE9tico en hoverbike_35": -1491936684113946729
+      "Piloto policial cibern\xE9tico en hoverbike_36": 2176428776117831538
+      "Piloto policial cibern\xE9tico en hoverbike_37": 7688753215453918017
+      "Piloto policial cibern\xE9tico en hoverbike_38": -7598346712713489273
+      "Piloto policial cibern\xE9tico en hoverbike_39": 6700154974769319472
+      "Piloto policial cibern\xE9tico en hoverbike_4": 4687074063988568018
+      "Piloto policial cibern\xE9tico en hoverbike_40": -7649260253085222530
+      "Piloto policial cibern\xE9tico en hoverbike_41": 6633083599320232491
+      "Piloto policial cibern\xE9tico en hoverbike_42": -2859727201457642552
+      "Piloto policial cibern\xE9tico en hoverbike_43": -8367295517090471311
+      "Piloto policial cibern\xE9tico en hoverbike_44": -2314601778919378710
+      "Piloto policial cibern\xE9tico en hoverbike_45": 2150366370248194143
+      "Piloto policial cibern\xE9tico en hoverbike_5": -1163430621927349646
+      "Piloto policial cibern\xE9tico en hoverbike_6": -4838231496632057996
+      "Piloto policial cibern\xE9tico en hoverbike_7": 3452030370170627334
+      "Piloto policial cibern\xE9tico en hoverbike_8": 8033156603444773976
+      "Piloto policial cibern\xE9tico en hoverbike_9": 7380115705442182146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

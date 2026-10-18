@@ -7,7 +7,7 @@ public class GameProgressManager : MonoBehaviour
     private static GameProgressManager _instance;
 
     private const int TOTAL_GEMS_LEVEL = 3;
-    private const int FINAL_LEVEL = 6;
+    private const int FINAL_LEVEL = 3;
     private const string KEY_UNLOCKED_FINAL_LEVEL = "UnlockedFinalLevel";
     private const string KEY_GEMS = "Gem";
 
@@ -82,7 +82,7 @@ public class GameProgressManager : MonoBehaviour
 
     public bool AllCompletedLevels()
     {
-        for(int i = 1; i <= FINAL_LEVEL; i++)
+        for(int i = 1; i < FINAL_LEVEL; i++)
         {
             if (!CompletedLevel(i))
             {

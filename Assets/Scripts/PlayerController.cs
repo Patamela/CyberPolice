@@ -18,9 +18,6 @@ public class PlayerController : MonoBehaviour
     InputAction moveAction;
     Vector2 moveInput;
     bool inFloor;
-    int coinsCount; // Store the number of coins the player has collected
-
-    int activePowerUpsCount; // Track the number of active power-ups
 
     private bool canControlPlayer = true; // Flag to control player input
     public bool CanControlPlayer {get => canControlPlayer; set => canControlPlayer = value;}
@@ -99,13 +96,6 @@ public class PlayerController : MonoBehaviour
 
     public void ApplyPowerUp(PowerUpScriptableObject powerUpData)
     {
-        activePowerUpsCount++; // Increment the count of active power-ups
-        if(powerUpData.PowerUpType == "Speed")
-        {
-            baseSpeed += powerUpData.PowerUpValue; // Increase the base speed by the power-up value
-            boostSpeed += powerUpData.PowerUpValue; // Increase the boost speed by the power-up value
-        }
-
         if(powerUpData.PowerUpType == "Magnet")
         {
             magnetCollider.gameObject.SetActive(true); // Enable the magnet collider to attract coins
@@ -114,19 +104,10 @@ public class PlayerController : MonoBehaviour
 
     public void DeactivatePowerUp(PowerUpScriptableObject powerUpData)
     {
-        activePowerUpsCount--; // Decrement the count of active power-ups
-        if(activePowerUpsCount == 0)
+        if(powerUpData.PowerUpType == "Magnet")
         {
-            if(powerUpData.PowerUpType == "Speed")
-            {
-                baseSpeed -= powerUpData.PowerUpValue; // Decrease the base speed by the power-up value
-                boostSpeed -= powerUpData.PowerUpValue; // Decrease the boost speed by the power-up value
-            }
-
-            if(powerUpData.PowerUpType == "Magnet")
-            {
-                magnetCollider.gameObject.SetActive(false); // Disable the magnet collider to stop attracting coins
-            }
+            magnetCollider.gameObject.SetActive(false); // Disable the magnet collider to stop attracting coins
         }
+        
     }
 }

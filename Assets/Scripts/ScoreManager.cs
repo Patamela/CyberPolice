@@ -4,11 +4,30 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
 
+    public static ScoreManager Instance { get; private set; }
+
     [SerializeField] TextMeshProUGUI scoreText; // Reference to the TextMeshProUGUI component that displays the score
     [SerializeField] TextMeshProUGUI gemText;
 
-    int score = 0; // Variable to keep track of the player's score
+    int levelScore = 0; // Variable to keep track of the player's score
+    int totalScore = 0;
 
+    private const string COIN_KEY = "COIN_KEY";
+
+    public void Awake()
+    {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        totalScore = PlayerPrefs.GetInt(COIN_KEY, 0);
+        levelScore = 0;
+    }
 
     public void OnEnable()
     {
@@ -22,14 +41,31 @@ public class ScoreManager : MonoBehaviour
         Gems.OnGemCollected -= AddGem;
     }
 
+    public bool SpendCurrency(int amount)
+    {
+        if (amount <= 0 || totalScore < amount) return false;
+
+        totalScore -= amount;
+        SaveScore();
+        return true;
+    }
+
     public void AddScore(int scoreValue)
     {
-        score += scoreValue; // Increment the score by the specified amount
-        scoreText.text = score.ToString("00000"); // Update the score text with the new score
+        levelScore += scoreValue;
+        totalScore += scoreValue; // Increment the score by the specified amount
+        SaveScore();
+        scoreText.text = levelScore.ToString("00000"); // Update the score text with the new score
     }
 
     public void AddGem(int gem){
         gemText.text = gem.ToString("Gems 0/3");
+    }
+
+    private void SaveScore() 
+    {
+        PlayerPrefs.SetInt("COIN_KEY", totalScore);
+        PlayerPrefs.Save();
     }
 
 }

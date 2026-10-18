@@ -10,7 +10,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Floor
@@ -42,6 +42,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PlatformTile
+    uniqueID: 3995691093
+    locked: 0
+  - name: PlatformDecoration
+    uniqueID: 287216195
+    locked: 0
+  - name: Decorations
+    uniqueID: 1452016407
+    locked: 0
+  - name: Player
+    uniqueID: 3657471537
     locked: 0
   m_RenderingLayers:
   - Default

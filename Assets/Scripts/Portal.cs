@@ -7,21 +7,30 @@ public class Portal : MonoBehaviour
 
     [SerializeField] private Transform destination; // The destination where the player will be teleported
 
+
+    private Transform player;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (portalObjects.Contains(collision.gameObject)) return;
+        player = collision.transform.parent;
+        
+        if (player == null) return;
+
+
+        if (portalObjects.Contains(player.gameObject)) return;
 
         if(destination.TryGetComponent(out Portal destinationPortal))
         {
-            destinationPortal.portalObjects.Add(collision.gameObject);
+            destinationPortal.portalObjects.Add(player.gameObject);
         }
 
-        collision.transform.position = destination.position; // Teleport the player to the destination
+        player.transform.position = destination.position; // Teleport the player to the destination
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        portalObjects.Remove(collision.gameObject);
+        if (player == null) return;
+
+        portalObjects.Remove(player.gameObject);
     }
     
 }

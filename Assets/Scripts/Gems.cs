@@ -14,7 +14,7 @@ public class Gems : MonoBehaviour, ICollectible
 
     public void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         recogida = false;
     }
 

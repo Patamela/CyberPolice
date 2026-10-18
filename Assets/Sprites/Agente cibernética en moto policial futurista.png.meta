@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: ccd7a4d3851379b40bbf8d25503ebfe4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4462125176315174737
+    second: "Agente cibern\xE9tica en moto policial futurista_0"
+  - first:
+      213: -6073795646377354290
+    second: "Agente cibern\xE9tica en moto policial futurista_1"
+  - first:
+      213: 516705223932629510
+    second: "Agente cibern\xE9tica en moto policial futurista_2"
+  - first:
+      213: -7376513301048530970
+    second: "Agente cibern\xE9tica en moto policial futurista_3"
+  - first:
+      213: 3878277441727152961
+    second: "Agente cibern\xE9tica en moto policial futurista_4"
+  - first:
+      213: 8307912525694458764
+    second: "Agente cibern\xE9tica en moto policial futurista_5"
+  - first:
+      213: 7574689069592431753
+    second: "Agente cibern\xE9tica en moto policial futurista_6"
+  - first:
+      213: 6702290373189986286
+    second: "Agente cibern\xE9tica en moto policial futurista_7"
+  - first:
+      213: 7448218530299879972
+    second: "Agente cibern\xE9tica en moto policial futurista_8"
+  - first:
+      213: -4268164306491332490
+    second: "Agente cibern\xE9tica en moto policial futurista_9"
+  - first:
+      213: -2126701904809713820
+    second: "Agente cibern\xE9tica en moto policial futurista_10"
+  - first:
+      213: 6136875394677980957
+    second: "Agente cibern\xE9tica en moto policial futurista_11"
+  - first:
+      213: 1948728989166167732
+    second: "Agente cibern\xE9tica en moto policial futurista_12"
+  - first:
+      213: 6504115327179173618
+    second: "Agente cibern\xE9tica en moto policial futurista_13"
+  - first:
+      213: 6616627326547547786
+    second: "Agente cibern\xE9tica en moto policial futurista_14"
+  - first:
+      213: -5049303052130313670
+    second: "Agente cibern\xE9tica en moto policial futurista_15"
+  - first:
+      213: -136896655704365233
+    second: "Agente cibern\xE9tica en moto policial futurista_16"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1521
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa028622bc85312c0800000000000000
+      internalID: -4462125176315174737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_1"
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 961
+        width: 95
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb1d5b3a0b85bba0800000000000000
+      internalID: -6073795646377354290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_2"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 998
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602d71ed9a4bb2700800000000000000
+      internalID: 516705223932629510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_3"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 967
+        width: 81
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7ee023c3c51a990800000000000000
+      internalID: -7376513301048530970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_4"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 993
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143ce8609c862d530800000000000000
+      internalID: 3878277441727152961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_5"
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 929
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b5907cc62ab4370800000000000000
+      internalID: 8307912525694458764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_6"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 975
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c471d8393be1960800000000000000
+      internalID: 7574689069592431753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_7"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 979
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7628b8591530d50800000000000000
+      internalID: 6702290373189986286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_8"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 970
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422a10c7a436d5760800000000000000
+      internalID: 7448218530299879972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_9"
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 975
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678259c4d2f64c4c0800000000000000
+      internalID: -4268164306491332490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_10"
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 960
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f9ba4a2ef6c72e0800000000000000
+      internalID: -2126701904809713820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_11"
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 945
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fbd9a28af8a2550800000000000000
+      internalID: 6136875394677980957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_12"
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 945
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b661cad0b64b0b10800000000000000
+      internalID: 1948728989166167732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_13"
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 937
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe20b60e62434a50800000000000000
+      internalID: 6504115327179173618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_14"
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 12
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8652024f7bf2db50800000000000000
+      internalID: 6616627326547547786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_15"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 11
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a1a7e50a54de9b0800000000000000
+      internalID: -5049303052130313670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Agente cibern\xE9tica en moto policial futurista_16"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 0
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f476dc98735a91ef0800000000000000
+      internalID: -136896655704365233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Agente cibern\xE9tica en moto policial futurista_0": -4462125176315174737
+      "Agente cibern\xE9tica en moto policial futurista_1": -6073795646377354290
+      "Agente cibern\xE9tica en moto policial futurista_10": -2126701904809713820
+      "Agente cibern\xE9tica en moto policial futurista_11": 6136875394677980957
+      "Agente cibern\xE9tica en moto policial futurista_12": 1948728989166167732
+      "Agente cibern\xE9tica en moto policial futurista_13": 6504115327179173618
+      "Agente cibern\xE9tica en moto policial futurista_14": 6616627326547547786
+      "Agente cibern\xE9tica en moto policial futurista_15": -5049303052130313670
+      "Agente cibern\xE9tica en moto policial futurista_16": -136896655704365233
+      "Agente cibern\xE9tica en moto policial futurista_2": 516705223932629510
+      "Agente cibern\xE9tica en moto policial futurista_3": -7376513301048530970
+      "Agente cibern\xE9tica en moto policial futurista_4": 3878277441727152961
+      "Agente cibern\xE9tica en moto policial futurista_5": 8307912525694458764
+      "Agente cibern\xE9tica en moto policial futurista_6": 7574689069592431753
+      "Agente cibern\xE9tica en moto policial futurista_7": 6702290373189986286
+      "Agente cibern\xE9tica en moto policial futurista_8": 7448218530299879972
+      "Agente cibern\xE9tica en moto policial futurista_9": -4268164306491332490
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
